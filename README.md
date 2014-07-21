@@ -2,7 +2,7 @@ vagrant
 =======
 Vagrant is a wrapper for virtualization software (such as VirtualBox) that allows provisionings of resources via shell, Puppet, Chef, or Ansible, to create an easy-to-deploy, lightweight development environment.  We use Vagrant to stand up a development Debian VM that has all of the resources www.groupmestats.com has.
 
-To get starts:
+To get started:
 
 1. Download Vagrant (found here: http://www.vagrantup.com/)
 2. Download VirtualBox (found here: https://www.virtualbox.org/)
