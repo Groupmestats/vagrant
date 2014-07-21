@@ -8,7 +8,7 @@
     ServerAdmin webmaster@localhost
 
 
-    DocumentRoot /app/groupme_stats/camping/public
+    DocumentRoot /app/groupmestats/camping/public
     RewriteEngine on
 
     ServerName groupmestats.com

@@ -10,7 +10,7 @@ class camping {
         mode => 755,
     }
 
-    file {'/app/groupme_stats/camping/web.yaml':
+    file {'/app/groupmestats/camping/web.yaml':
 	source => '/vagrant/modules/camping/files/web.yaml',
 	mode => 744,
     }
@@ -24,7 +24,7 @@ class camping {
 	enable => true,
 	require => [ File['/etc/default/camping-server'],
 		     File['/etc/init.d/camping-server'],
-		     File['/app/groupme_stats/camping/web.yaml'],
+		     File['/app/groupmestats/camping/web.yaml'],
 		     Package['camping'] ],
     }
 }

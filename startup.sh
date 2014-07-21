@@ -10,7 +10,7 @@ gem install bundler
 mkdir -p /app/
 cd /app/
 
-git clone https://github.com/bstascavage/groupme_stats.git
+git clone https://github.com/Groupmestats/groupmestats.git
 
-cd groupme_stats/
+cd groupmestats/
 bundle install
