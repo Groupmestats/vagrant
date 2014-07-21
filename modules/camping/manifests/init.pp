@@ -24,6 +24,7 @@ class camping {
 	enable => true,
 	require => [ File['/etc/default/camping-server'],
 		     File['/etc/init.d/camping-server'],
+		     File['/app/groupme_stats/camping/web.yaml'],
 		     Package['camping'] ],
     }
 }

@@ -16,7 +16,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     puppet.module_path = "modules"
   end
 
-  #config.vm.network "forwarded_port", guest: 80, host: 8080
   config.vm.network "private_network", ip: "10.10.10.10"
 
   # Disable automatic box update checking. If you disable this, then

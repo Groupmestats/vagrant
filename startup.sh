@@ -14,9 +14,3 @@ git clone https://github.com/bstascavage/groupme_stats.git
 
 cd groupme_stats/
 bundle install
-
-#cp camping/debain-service/camping-server /etc/init.d/
-
-#service camping-server start
-
-
