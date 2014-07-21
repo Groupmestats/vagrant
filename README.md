@@ -13,5 +13,5 @@ To get started:
 Other notes:
 
 * To access the VM, run `vagrant ssh`.  The groupmestats repo is located at `/app/groupme_stats`, from where you can edit code and check commits into Github
-* To reset the camping server, run `services camping-server restart`
+* To reset the camping server, run `service camping-server restart`
 * If you mess up the VM, you can delete it by running `vagrant destroy`.  You can recreate it by re-running `vagrant up`.
