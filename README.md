@@ -6,7 +6,7 @@ To get started:
 
 1. Download Vagrant (found here: http://www.vagrantup.com/)
 2. Download VirtualBox (found here: https://www.virtualbox.org/)
-3. Clone the Groupmestats Vagrant repo (found here: https://github.com/Groupmestats/vagrant.git)
+3. Clone the Groupmestats Vagrant repo with the `--recursive-submodules` flag.  `git clone --recurse-submodules https://github.com/Groupmestats/vagrant.git`
 4. In that directory, run `vagrant up` to start the VM provision (**Note:** This might take a while your first time, as Vagrant downloads the debian image)
 5. Once the VM is initialized, you can verify by opening your web browser and going to "http://10.10.10.10"
 
