@@ -13,7 +13,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.box = "chef/debian-7.4"
   config.vm.provision :shell, path: "startup.sh"
   config.vm.provision "puppet" do |puppet|
-    puppet.module_path = "modules"
+    puppet.module_path = "puppet/modules"
   end
 
   config.vm.network "private_network", ip: "10.10.10.10"
