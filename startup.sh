@@ -10,7 +10,7 @@ gem install bundler
 mkdir -p /app/
 cd /app/
 
-git clone git@github.com:Groupmestats/vagrant.git
+git clone git@github.com:Groupmestats/groupmestats.git
 
 cd groupmestats/
 bundle install
