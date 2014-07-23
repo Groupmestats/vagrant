@@ -10,7 +10,7 @@ gem install bundler
 mkdir -p /app/
 cd /app/
 
-https://github.com/Groupmestats/groupmestats.git
+git clone https://github.com/Groupmestats/groupmestats.git
 
 cd groupmestats/
 bundle install
